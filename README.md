@@ -8,6 +8,6 @@ The prediction is based on the 6th degree polinomial curve fitting.
 <img src='./canada.png' width=400 height=400>
 
 # Prediction is as follows:
-# Nov. 6 deaths 50,
-# Nov. 13 deaths 83,
-# Nov. 20 deaths 146
+# Nov. 7 deaths 47
+# Nov. 14 deaths 77
+# Nov. 21 deaths 134
