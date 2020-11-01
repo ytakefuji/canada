@@ -11,9 +11,9 @@ param=curve_fit(func,x,y)
 [a,b,c,d,e,f,g]=param[0]
 print(a,b,c,d,e,f,g)
 import matplotlib.pyplot as plt
-print("Nov. 6 deaths",int(func(236+7,a,b,c,d,e,f,g)))
-print("Nov. 13 deaths",int(func(236+14,a,b,c,d,e,f,g)))
-print("Nov. 20 deaths",int(func(236+21,a,b,c,d,e,f,g)))
+print("Nov. 7 deaths",int(func(235+7,a,b,c,d,e,f,g)))
+print("Nov. 14 deaths",int(func(235+14,a,b,c,d,e,f,g)))
+print("Nov. 21 deaths",int(func(235+21,a,b,c,d,e,f,g)))
 y=data["canada"]
 x=np.arange(len(y))
 plt.plot(x,y)
