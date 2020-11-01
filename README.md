@@ -1,5 +1,5 @@
 # canada
-In order to install Python libraries, see the following site for novice:
+In order to run Python programs, see the following site for novice to install the necessary libraries:
 https://github.com/ytakefuji/python-novice
 
 The number of daily deaths due to the covid-19 in canada from March 10 to Oct. 31 in 2020.
