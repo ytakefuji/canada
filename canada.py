@@ -2,8 +2,9 @@ import pandas as pd
 import numpy as np
 data=pd.read_csv("canada.csv")
 n=len(data["canada"])
-y=data["canada"][n-120:n-1]
-x=np.arange(n-120,n-1)
+days=120
+y=data["canada"][n-days:n]
+x=np.arange(n-days,n)
 from scipy.optimize import curve_fit
 def func(x,a,b,c,d,e,f,g):
  return a*x*x*x*x*x*x+b*x*x*x*x*x+c*x*x*x*x+d*x*x*x+e*x*x+f*x+g
@@ -17,9 +18,9 @@ print("Nov. 21 deaths",int(func(n-1+21,a,b,c,d,e,f,g)))
 y=data["canada"]
 x=np.arange(len(y))
 plt.plot(x,y)
-x=np.arange(n-120,n-1)
+x=np.arange(n-days,n)
 plt.plot(x,func(x,a,b,c,d,e,f,g),'r')
-x1=np.arange(n-120,n+25)
+x1=np.arange(n-days,n+25)
 plt.plot(n-1+7,func(n-1+7,a,b,c,d,e,f,g),'ro')
 plt.plot(n-1+14,func(n-1+14,a,b,c,d,e,f,g),'ro')
 plt.plot(n-1+21,func(n-1+21,a,b,c,d,e,f,g),'ro')
