@@ -13,5 +13,5 @@ The prediction is based on the 6th degree polinomial curve fitting.
 
 # Prediction is as follows:
 # Nov. 11 deaths 97
+# Nov. 14 deaths 132
 # Nov. 18 deaths 197
-# Nov. 25 deaths 385
