@@ -1,4 +1,7 @@
 # canada
+
+<img src='canada.gif' height=400 width=600>
+
 In order to run Python programs, see the following site for novice to install the necessary libraries:
 https://github.com/ytakefuji/python-novice
 
