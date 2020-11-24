@@ -10,11 +10,3 @@ The number of daily deaths due to the covid-19 can be used for measuring the suc
 Data was downloaded from:
  https://covid.ourworldindata.org/data/ecdc/new_deaths.csv
 
-The prediction is based on the 6th degree polinomial curve fitting.
-
-<img src='./canada.png' width=400 height=400>
-
-# Prediction is as follows:
-# Nov. 11 deaths 97
-# Nov. 14 deaths 132
-# Nov. 18 deaths 197
